@@ -25,4 +25,4 @@
 ---
 This repository was inspired by [simnalamburt/snucse](https://github.com/simnalamburt/snucse).
 
-jejunumis is primarily distributed under the terms of the [GNU Affero General Public License v3.0](./LICENSE) or any later version. See [COPYRIGHT](./COPYRIGHT) for details.
+_jejunu_ is primarily distributed under the terms of the [GNU Affero General Public License v3.0](./LICENSE) or any later version. See [COPYRIGHT](./COPYRIGHT) for details.
