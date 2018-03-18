@@ -19,10 +19,10 @@
 <table>
   <tr>
     <th></th>
-    <th colspan="2">단(모음)</th>
+    <th colspan="2">행(자음) ↓</th>
   </tr>
   <tr>
-    <th rowspan="5">행(자음)</th>
+    <th rowspan="5">단(모음) →</th>
     <td>あ</td>
     <td>か</td>
   </tr>
