@@ -62,4 +62,11 @@ set -x PROCESSING_JAVA /usr/local/bin/processing-java
 jupyter notbook
 ```
 
-실습 코드는 [1-2 week.ipynb](./1-2_week.ipynb) 참고
+실습 코드는 [1-week.ipynb](./1-week.ipynb) 참고
+
+
+
+## 2주차
+
+- [2-week.ipynb](./2-week.ipynb) 참고
+
