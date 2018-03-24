@@ -4,7 +4,7 @@ setup(
     name='Computing',
     version='1.0.0',
     description='Computing lect using Processing',
-    url='https://github.com/BetaFish/jejunu/Computing',
+    url='https://github.com/BetaFish/jejunu',
     author='Muhun Kim',
     author_email='iam@muhun.kim',
     keywords='jupyter notebook processing virtualenv pipenv python3.6',
