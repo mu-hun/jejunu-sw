@@ -47,10 +47,11 @@ void draw()
         scale_var += 0.002;
         spin_var += 5;
         
-        if (scale_var > 2) step = 1;if (scale_var > 2) step = 1;
+        if (scale_var > 2) step = 1;
         break;
         
         case 1:
+        shake();
         translate(initx, inity);
         image(strom_bg, -40, 40);
         scale_var -= 0.007;
@@ -68,7 +69,6 @@ void draw()
     image(atom, 0, 0, initwh, initwh);
     
     rotate(radians(spin_var));
-    //scale(scale_one);
     image(strom, 0, 0, initwh, initwh);
 
     println(scale_var);
