@@ -84,8 +84,27 @@ jupyter notbook
  Q. 혹시 깃허브 등 웹 상 URL로 제출해도 되나요?
  A. 안됩니다.
 ```
-[cats.ipynb](./cats.ipynb) 제출함.
+[`cats.ipynb`](./cats.ipynb) 제출함.
 
 ## 5주차, 4월 11일
 
 튜링기계 배웠어요.
+
+## 7주차, 25일
+
+Transform, 회전 관련 기능 다뤄봄.
+
+- `translate()`
+- `rotate(radians(degree))`
+- `pushMatrix()`, `popMatrix()`
+
+### 히어로즈 오브 더 스톰 : 시공의 폭풍
+
+```
+교수님 : 두번째 과제는 회전 애니매이션으로 할게요~
+
+나 : 시-공조아 시공-조아 시-공-조아 히오스~
+```
+
+[`strom_is_awsome`](./strom_is_awsome)  제출함.
+
