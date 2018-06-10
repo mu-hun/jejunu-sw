@@ -23,6 +23,6 @@
 [Pig Toolbox]: https://chrome.google.com/webstore/detail/pig-toolbox-super-gesture/oiplkfaidhjklglajdpfehoagkmlcakh
 
 ---
-This repository was inspired by [simnalamburt/snucse](https://github.com/simnalamburt/snucse).
+_This repository was inspired by [simnalamburt/snucse](https://github.com/simnalamburt/snucse)_
 
 _jejunu_ is primarily distributed under the terms of the [GNU Affero General Public License v3.0](./LICENSE) or any later version. See [COPYRIGHT](./COPYRIGHT) for details.
