@@ -41,9 +41,8 @@ Compute 라고 하는 단어가 뭐와 비슷하냐면 Calculate 와 비슷해�
 - 풀줄 몰라서 헤메는 사람도 있음
 - 계산 능력의 차이
 
-## 2주차
+## 2주차, Processing setup method with Jupyter
 
-### Processing setup method with Jupyter
 교수님이 전 시간 개요 잠시 설명하고 프로세싱 소개 하는 동안 pipenv-프로세싱-주피터 삽질해 봄.
 
 ```
@@ -70,9 +69,7 @@ jupyter notbook
 - [2-week.ipynb](./2-week.ipynb) 참고
 
 
-## 4주차
-
-### 과제 대신 귀여운 고양이를 드려도 될까요?
+## 4주차, 과제 대신 귀여운 고양이를 드려도 될까요?
 
 ```
 교수님 : 첫 과제는 자유주제로 할게요~
@@ -107,4 +104,52 @@ Transform, 회전 관련 기능 다뤄봄.
 ```
 
 [`strom_is_awsome`](./strom_is_awsome)  제출함.
+
+## 13주차, 2의 보수법으로 음수 표현하기
+
+>  참고한 자료 : [2의 보수법으로 음수 표현하기 - ecowiki](http://www.ecogwiki.com/2의_보수법으로_음수_표현하기)
+
+1. 모든 수를 뒤집는다. 예를 들어 `01110` -> `10001`
+2. 1추가 :  `10001` 였다면 `10010`
+
+컴퓨터는 메모리가 유한하기 때문에 무한하게 긴 수는 존재할 수 없다.
+
+그래서, 양 끝의 수를 적절히 잘라야 한다. 예를 들어 8비트 정수라면 `-128` 에서 `127` 구간 자름. 
+
+### 인코딩 흐름
+
+![](sd9po.jpg)
+
+> 사진 출처 : _[Two's complement addition overflow in C - Stack Overflow](https://stackoverflow.com/a/11464365/5498707)_
+
+8비트에서 127에서 -128로 자연스럽게 넘어가고
+
+0은 `00000000`인데 -1은 `11111111` 이유가 이거다.
+
+## 14주차, 논리 게이트
+
+> _아래 백터 이미지들은 [가산기 - 위키백과](https://ko.wikipedia.org/wiki/가산기)에서 가져옴. 원 저작자 [사용자:Cburnett](https://en.wikipedia.org/wiki/User:Cburnett) 에 의해 [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) 를 따라 동일한 라이선스를 이미지에 재부여함._
+
+2진수 덧셈 회로 : 1101 + 0101 = 10000
+
+AND, OR, NOT 소자만을 이용해서 만들어본다.
+
+### 반가산기 _half-adder_
+
+|       회로도        |
+| :-----------------: |
+| ![](Half-adder.svg) |
+### 전가산기 _full-adder_
+
+|       회로도        |        결선도 기호        |
+| :-----------------: | :-----------------------: |
+| ![](Full-adder.svg) | ![](1-bit_full-adder.svg) |
+
+### 복수비트의 가산기
+
+|           4비트 가산기            |
+| :-------------------------------: |
+| ![](4-bit_ripple_carry_adder.svg) |
+
+이전 가산기의 연산 결과를 기다려야함. 비트 수가 커질수록 연산이 느려짐.
 
