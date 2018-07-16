@@ -63,13 +63,6 @@ set -x PROCESSING_JAVA /usr/local/bin/processing-java
 jupyter notbook
 ```
 
-실습 코드는 [1-week.ipynb](./1-week.ipynb) 참고
-
-## 3주차
-
-- [2-week.ipynb](./2-week.ipynb) 참고
-
-
 ## 4주차, 과제 대신 귀여운 고양이를 드려도 될까요
 
 ```
