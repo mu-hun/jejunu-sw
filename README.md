@@ -10,7 +10,7 @@
 
 - [하영드리미](https://dreamy.jejunu.ac.kr) - 자동 로그인
 
-  [Pig Toolbox] 설정에서 우클 해제 및 로그인 폼 채우기 설정
+  [Autofill Forms] QuerySelector : `input[name*='user']`, `input[name*='password']`
 
 - [제주대학교 웹 메일](https://webmail.jejunu.ac.kr/) - 메일 클라이언트 설정
 
@@ -22,7 +22,7 @@
   >
   > <img src="mail-setup.png" width="300em"/>
 
-[Pig Toolbox]: https://chrome.google.com/webstore/detail/pig-toolbox-super-gesture/oiplkfaidhjklglajdpfehoagkmlcakh
+[Autofill Forms]: https://mybrowseraddon.com/autofill-forms.html
 
 ---
 _This repository was inspired by [simnalamburt/snucse](https://github.com/simnalamburt/snucse)_
