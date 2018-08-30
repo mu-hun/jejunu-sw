@@ -8,9 +8,16 @@
 
   [HTTPS Eveywhere](https://www.eff.org/https-everywhere) 사용
 
-- [하영드리미](https://dreamy.jejunu.ac.kr) - 자동 로그인
+- [하영드리미](https://dreamy.jejunu.ac.kr) - `submit()`으로 수동 저장, 하단의 유저 스크립트 적용
+  
+  ```js
+  const D = document
+  const $ = D.querySelector.bind(D)
 
-  [Autofill Forms] QuerySelector : `input[name*='user']`, `input[name*='password']`
+  window.onload=function() {
+    $('#act_lgn').click();
+  }
+  ```
 
 - [제주대학교 웹 메일](https://webmail.jejunu.ac.kr/) - 메일 클라이언트 설정
 
