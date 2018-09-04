@@ -1,0 +1,3 @@
+[submodule "Deep Learning from Scratch/deep-learning-from-scratch"]
+	path = Deep Learning from Scratch/deep-learning-from-scratch
+	url = https://github.com/WegraLee/deep-learning-from-scratch.git
