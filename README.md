@@ -8,8 +8,8 @@
 
   [HTTPS Eveywhere](https://www.eff.org/https-everywhere) 사용
 
-- [하영드리미](https://dreamy.jejunu.ac.kr) - `submit()`으로 수동 저장, 하단의 유저 스크립트 적용
-  
+- [하영드리미](https://dreamy.jejunu.ac.kr) - `submit()` 이후 하단의 유저 스크립트 적용
+ 
   ```js
   const D = document
   const $ = D.querySelector.bind(D)
