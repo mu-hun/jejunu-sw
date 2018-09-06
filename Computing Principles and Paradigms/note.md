@@ -77,7 +77,7 @@ Transform, 회전 관련 기능 다뤄봄.
 베타> 시공조아~
 ```
 
-[jejunu.strom](https://github.com/BetaF1sh/jejunu.strom) 제출함.
+[strom](https://github.com/BetaF1sh/strom) 제출함.
 
 > 13주차, 2진수의 보수법으로 음수 표현하기
 >
