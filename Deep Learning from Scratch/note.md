@@ -51,3 +51,22 @@ int %d (10진법 : digit)
     %'s'tring
 ```
 
+> 9월 18일
+
+```
+문자 : character
+문장 : string
+여러 포멧의 인코딩 패턴 설명함
+2 byte unicode
+딕셔너리 : key and value
+for in 문
+```
+
+### N개의 길이의 리스트 생성
+
+```python
+list = ['m' for __ in range(4)]
+```
+
+위 코드대로 하면 각기 다르게 참조할 수 있음.
+
