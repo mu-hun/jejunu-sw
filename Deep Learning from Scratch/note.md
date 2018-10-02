@@ -75,3 +75,20 @@ list = ['m' for __ in range(4)]
 
 위 코드대로 하면 각기 다르게 참조할 수 있음.
 
+> 10월 2일
+
+```
+교수님> 오늘은 딕셔너리를 배울 거에요.
+교수님> 자료구조
+변수 : 데이터 타입
+key : value => DB
+
+교수님> for in
+$$\sum_{i=i}^{N} ai \ N$$
+
+a = 0
+for i in N:
+  a = a + i
+
+왜 for in 일까? => iterator
+```
