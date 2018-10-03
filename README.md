@@ -32,4 +32,4 @@
 ---
 _This repository was inspired by [simnalamburt/snucse](https://github.com/simnalamburt/snucse)_
 
-_jejunu_ is primarily distributed under the terms of the [GNU Affero General Public License v3.0](./LICENSE) or any later version. But This original contents are copyrighted to Lecturer. See [COPYRIGHT](./COPYRIGHT) for details.
+Original contents of _jejunu_ are copyrighted to Lecturer, and is primarily distributed under the terms of the [GNU Affero General Public License v3.0](./LICENSE) or any later version. See [COPYRIGHT](./COPYRIGHT) for details.
