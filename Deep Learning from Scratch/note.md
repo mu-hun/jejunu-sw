@@ -69,11 +69,20 @@ for in 문
 
 ### N개의 길이의 리스트 생성
 
+> _Refer : [Code Style — The Hitchhiker's Guide to Python](https://docs.python-guide.org/writing/style/#create-a-length-n-list-of-lists)_
+
+```python
+four_nones = [None] * 4
+```
+
+ `*` 연산자는 같은 객체를 참조하는 객체를 만든다.
+
+
 ```python
 list = ['m' for __ in range(4)]
 ```
 
-위 코드대로 하면 각기 다르게 참조할 수 있음.
+대신에, 리스트컴프리헨션을 사용하면 개별로 객체를 참조 할 수 있다.
 
 > 10월 2일
 
