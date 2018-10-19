@@ -1,7 +1,4 @@
-class Node():
-	def __init__(self, value, _next):
-		self.value = value
-		self.next = _next
+from node import Node
 
 class EmptyError(Exception):
 	pass
@@ -11,15 +8,15 @@ class List():
 		self.head = None
 		self.size = 0
 	
-	def isEmpty(self):
+	def is_empty(self):
 		return self.size == 0
 	
 	def delete_is_possible(self):
-		if self.isEmpty():
+		if self.is_empty():
 			raise EmptyError('Underflow')
 	
 	def insert_front(self, value):
-		if self.isEmpty():
+		if self.is_empty():
 			self.head = Node(value, None)
 		else:
 			self.head = Node(value, self.head)
