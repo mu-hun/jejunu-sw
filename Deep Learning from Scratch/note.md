@@ -101,3 +101,24 @@ for i in N:
 
 왜 for in 일까? => iterator
 ```
+
+> 10월 23일
+
+```
+
+딥러닝 개론
+
+퍼셉트론, 힌튼 교수님 소개
+
+DNN, CNN, RNN
+
+활성 함수
+- 시그모이드 : 비선형
+- TanH : y 영점 기준의 시그모이드, 탄젠트 기반
+- ReLU : 선형
+
+Mult-Layer Perceptron : MLP
+
+Deep : 2 레이어 이상의 은닉층
+```
+
