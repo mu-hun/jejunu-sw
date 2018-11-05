@@ -20,16 +20,36 @@ class Tree():
 			self.preorder(n.right)
 	
 	def inorder(self, n):
-		pass
+		if n is None:
+			return
+		if n.left:
+			self.preorder(n.left)
+		print(str(n.value), ' ', end='')
+		if n.right:
+			self.preorder(n.right)
 	
-	def postorder(self):
-		pass
+	def postorder(self, n):
+		if n is None:
+			return
+		if n.left:
+			self.preorder(n.left)
+		if n.right:
+			self.preorder(n.right)
+		print(str(n.value), ' ', end='')
 	
 	def levelorder(self, root):
-		pass
+		q = []
+		q.append(root)
+		while len(q) > 0:
+			t = q.pop(0)
+			print(str(t.value), ' ', end='')
+			if t.left:
+				q.append(t.left)
+			if t.right:
+				q.append(t.right)
 	
 	def getHeight(self, root):
-		pass
+		return 0 if root is None else max(self.getHeight(root.left), self.getHeight(root.right)) + 1
 	
 	def copy_tree(self, n):
 		pass
@@ -66,5 +86,13 @@ if __name__ == '__main__':
 
 	t.root.left.left.left = n8
 	
-	print('전위순회:\t', end='')
+	print('전위순회: ', end='')
 	t.preorder(t.root)
+	print('\n중위순회: ', end='')
+	t.inorder(t.root)
+	print('\n후위순회: ', end='')
+	t.postorder(t.root)
+	print('\n레벨순회: ', end='')
+	t.levelorder(t.root)
+	print('\n트리높이: ', end='')
+	print(t.getHeight(t.root))
