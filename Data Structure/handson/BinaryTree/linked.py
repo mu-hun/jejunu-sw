@@ -55,22 +55,20 @@ class Tree():
 		pass
 
 if __name__ == '__main__':
-	t = Tree() # 이진트리 객체 t 생성
-	n1 = Node(100) # 8개의 노드 생성
-	t.root = n1
-
-	n2 = Node(200)
-	n3 = Node(300)
-	n4 = Node(400)
-	n5 = Node(500)
-	n6 = Node(600)
-	n7 = Node(700)
-	n8 = Node(800)
+	t = Tree()
+	n1 = Node('A')
+	n2 = Node('B')
+	n3 = Node('C')
+	n4 = Node('D')
+	n5 = Node('E')
+	n6 = Node('F')
+	n7 = Node('G')
+	n8 = Node('H')
 	
 	# TODO: Tree append 구현
 	
-	t.root.left = n2
-	t.root.right = n3
+	n1.left = n2
+	n1.right = n3
 
 	# n2.left = n4
 	# n2.right = n5
@@ -78,21 +76,21 @@ if __name__ == '__main__':
 	# n3.right = n7
 	# n4.left = n8
 
-	t.root.left.left = n4
-	t.root.left.right = n5
+	n1.left.left = n4
+	n1.left.right = n5
 
-	t.root.right.left = n6
-	t.root.right.right = n7
+	n1.right.left = n6
+	n1.right.right = n7
 
-	t.root.left.left.left = n8
+	n1.left.left.left = n8
 	
 	print('전위순회: ', end='')
-	t.preorder(t.root)
+	t.preorder(n1)
 	print('\n중위순회: ', end='')
-	t.inorder(t.root)
+	t.inorder(n1)
 	print('\n후위순회: ', end='')
-	t.postorder(t.root)
+	t.postorder(n1)
 	print('\n레벨순회: ', end='')
-	t.levelorder(t.root)
+	t.levelorder(n1)
 	print('\n트리높이: ', end='')
-	print(t.getHeight(t.root))
+	print(t.getHeight(n1))
