@@ -4,10 +4,6 @@
 
 ### 교내 ICT 서비스 이용 팁
 
-- `*.jejunu.ac.kr/*` - HTTPS 리다이렉트
-
-  [HTTPS Eveywhere](https://www.eff.org/https-everywhere) 사용
-
 - [하영드리미](https://dreamy.jejunu.ac.kr) - `submit()` 이후 하단의 유저 스크립트 적용
  
   ```js
@@ -32,4 +28,4 @@
 ---
 _This repository was inspired by [simnalamburt/snucse](https://github.com/simnalamburt/snucse)_
 
-Original contents of _jejunu_ are copyrighted to Lecturer, and is primarily distributed under the terms of the [GNU Affero General Public License v3.0](./LICENSE) or any later version. See [COPYRIGHT](./COPYRIGHT) for details.
+Original contents are copyrighted to Lecturer, and Notes is primarily distributed under the terms of the [GNU Affero General Public License v3.0](./LICENSE) or any later version. See [COPYRIGHT](./COPYRIGHT) for details.
