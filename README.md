@@ -9,11 +9,11 @@
 - [하영드리미](https://dreamy.jejunu.ac.kr) - `submit()` 이후 하단의 유저 스크립트 적용
  
   ```js
-  const D = document
-  const $ = D.querySelector.bind(D)
-
-  window.onload=function() {
-    $('#act_lgn').click();
+  window.onload = function() {
+    if (document.getElementsByName('frmLogin')) {
+    //   document.getElementById('password').focus();
+      document.getElementById('act_lgn').click();
+    }
   }
   ```
 
