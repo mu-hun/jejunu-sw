@@ -1,9 +1,7 @@
 from linked import Node, Tree
 
 class TreeStack(Tree):
-	def __init__(self, n):
-		self.root = n
-	
+
 	def preorder(self):
 		stack = [self.root]
 		while len(stack) > 0:
@@ -14,7 +12,7 @@ class TreeStack(Tree):
 			if item.left:
 				stack.append(item.left)
 		print()
-	
+
 	def inorder(self):
 		current = self.root
 		while current:
@@ -25,60 +23,60 @@ class TreeStack(Tree):
 				pre = current.left
 				while pre.right and pre.right != current:
 					pre = pre.right
-				
+
 				if pre.right is None:
 					pre.right = current
 					current = current.left
-				
+
 				else:
 					pre.right = None
 					print(current.value, end=' ')
 					current = current.right
 		print()
-	
+
 	def stack_inorder(self):
 		stack, current, loop = [], self.root, True
 		while loop:
 			if current:
 				stack.append(current)
 				current = current.left
-			elif len(stack) > 0:
+			elif stack:
 				current = stack.pop()
 				print(current.value, end=' ')
 				current = current.right
 			else:
 				loop = False
 		print()
-	
+
 	def postorder(self):
 		stack, root, ans = [], self.root, []
 
-		while True: 
-			while root: 
+		while True:
+			while root:
 				if root.right:
-					stack.append(root.right) 
-				stack.append(root) 
+					stack.append(root.right)
+				stack.append(root)
 
-				root = root.left 
-			
-			root = stack.pop() 
+				root = root.left
 
-			if (root.right and 
-				self.peek(stack) == root.right): 
+			root = stack.pop()
+
+			if (root.right and
+				self.peek(stack) == root.right):
 				stack.pop() # 오른쪽 자식 제거
 				stack.append(root)
 				root = root.right
-			
+
 			else:
-				ans.append(root.value)  
+				ans.append(root.value)
 				root = None
-	
-			if len(stack) <= 0: 
+
+			if len(stack) <= 0:
 				for i in ans:
 					print(i, end=' ')
 				print()
 				return
-	
+
 	def peek(self, stack):
 		if len(stack) > 0:
 			return stack[-1]
@@ -94,7 +92,7 @@ if __name__ == '__main__':
 	n6 = Node('F')
 	n7 = Node('G')
 	n8 = Node('H')
-	
+
 	n1.left = n2
 	n1.right = n3
 	n2.left = n4
@@ -108,6 +106,8 @@ if __name__ == '__main__':
 	t.preorder()
 	print('중위순회: ', end='')
 	t.inorder()
+	print('ㄴ스택  : ', end='')
+	t.stack_inorder()
 	print('후위순회: ', end='')
 	t.postorder()
 	print('레벨순회: ', end='')

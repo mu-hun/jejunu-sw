@@ -34,7 +34,7 @@ class Tree():
 	
 	def levelorder(self):
 		q = [self.root]
-		while len(q) > 0:
+		while q:
 			t = q.pop(0)
 			print(t.value, end=' ')
 			if t.left:
