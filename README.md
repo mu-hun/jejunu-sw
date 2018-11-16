@@ -2,6 +2,8 @@
 
 학교 수업 요약 정리, 과목별 과제, 개인 공부 노트 레포
 
+[![CircleCI](https://circleci.com/gh/BetaF1sh/jejunu/tree/master.svg?style=svg)](https://circleci.com/gh/BetaF1sh/jejunu/tree/master)
+
 ### 교내 ICT 서비스 이용 팁
 
 - [하영드리미](https://dreamy.jejunu.ac.kr) - `submit()` 이후 하단의 유저 스크립트 적용
