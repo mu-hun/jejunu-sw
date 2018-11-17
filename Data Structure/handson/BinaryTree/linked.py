@@ -5,8 +5,6 @@ class Node():
 		self.right = right
 
 class Tree():
-	def __init__(self, n=None):
-		self.root = n
 
 	def preorder(self, n):
 		if n != None:
@@ -32,8 +30,7 @@ class Tree():
 				self.postorder(n.right)
 			print(n.value, end=' ')
 	
-	def levelorder(self):
-		q = [self.root]
+	def levelorder(self, q):
 		while q:
 			t = q.pop(0)
 			print(t.value, end=' ')
@@ -68,7 +65,7 @@ if __name__ == '__main__':
 	n3.right = n7
 	n4.left = n8
 
-	t = Tree(n1)
+	t = Tree()
 	
 	print('전위순회: ', end='')
 	t.preorder(n1)
@@ -77,6 +74,6 @@ if __name__ == '__main__':
 	print('\n후위순회: ', end='')
 	t.postorder(n1)
 	print('\n레벨순회: ', end='')
-	t.levelorder()
+	t.levelorder([n1])
 	print('\n트리높이: ', end='')
 	print(t.getHeight(n1))

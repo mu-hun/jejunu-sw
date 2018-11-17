@@ -1,7 +1,8 @@
 import sys
 sys.path.append('Data Structure/handson/BinaryTree')
 from stack import TreeStack
-from stack import Node
+from linked import Node
+from linked import Tree
 
 def test_tree(capsys):
 	n1 = Node('A')
@@ -22,13 +23,30 @@ def test_tree(capsys):
 	n4.left = n8
 
 	t = TreeStack(n1)
+	tr = Tree()
+
 	t.preorder()
-	assert capsys.readouterr().out == 'A B D H E C F G \n'
+	t_read = capsys.readouterr()
+	tr.preorder(n1)
+	tr_read = capsys.readouterr()
+	assert t_read.out == tr_read.out
+	
 	t.inorder()
-	assert capsys.readouterr().out == 'H D B E A F C G \n'
-	t.stack_inorder()
-	assert capsys.readouterr().out == 'H D B E A F C G \n'
+	t_read = capsys.readouterr()
+	tr.inorder(n1)
+	tr_read = capsys.readouterr()
+	assert t_read.out == tr_read.out
+
+	t.inorder_without_stack()
+	t_read = capsys.readouterr()
+	tr.inorder(n1)
+	tr_read = capsys.readouterr()
+	assert t_read.out == tr_read.out
+	
 	t.postorder()
-	assert capsys.readouterr().out == 'H D E B F G C A \n'
-	t.levelorder()
-	assert capsys.readouterr().out == 'A B C D E F G H '
+	t_read = capsys.readouterr()
+	tr.postorder(n1)
+	tr_read = capsys.readouterr()
+	assert t_read.out == tr_read.out
+
+# def test_heap():

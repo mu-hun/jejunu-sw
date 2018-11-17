@@ -1,6 +1,7 @@
-from linked import Node, Tree
+class TreeStack():
 
-class TreeStack(Tree):
+	def __init__(self, n=None):
+		self.root = n
 
 	def preorder(self):
 		stack = [self.root]
@@ -11,9 +12,8 @@ class TreeStack(Tree):
 				stack.append(item.right)
 			if item.left:
 				stack.append(item.left)
-		print()
 
-	def inorder(self):
+	def inorder_without_stack(self):
 		current = self.root
 		while current:
 			if current.left is None:
@@ -32,9 +32,8 @@ class TreeStack(Tree):
 					pre.right = None
 					print(current.value, end=' ')
 					current = current.right
-		print()
 
-	def stack_inorder(self):
+	def inorder(self):
 		stack, current, loop = [], self.root, True
 		while loop:
 			if current:
@@ -46,7 +45,6 @@ class TreeStack(Tree):
 				current = current.right
 			else:
 				loop = False
-		print()
 
 	def postorder(self):
 		stack, root, ans = [], self.root, []
@@ -74,7 +72,6 @@ class TreeStack(Tree):
 			if len(stack) <= 0:
 				for i in ans:
 					print(i, end=' ')
-				print()
 				return
 
 	def peek(self, stack):
@@ -84,6 +81,7 @@ class TreeStack(Tree):
 
 
 if __name__ == '__main__':
+	from linked import Node
 	n1 = Node('A')
 	n2 = Node('B')
 	n3 = Node('C')
@@ -104,11 +102,9 @@ if __name__ == '__main__':
 	t = TreeStack(n1)
 	print('전위순회: ', end='')
 	t.preorder()
-	print('중위순회: ', end='')
+	print('\n중위순회: ', end='')
 	t.inorder()
-	print('ㄴ스택  : ', end='')
-	t.stack_inorder()
-	print('후위순회: ', end='')
+	print('\nㄴ스택X : ', end='')
+	t.inorder_without_stack()
+	print('\n후위순회: ', end='')
 	t.postorder()
-	print('레벨순회: ', end='')
-	t.levelorder()
