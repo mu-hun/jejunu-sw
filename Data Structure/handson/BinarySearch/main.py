@@ -23,7 +23,7 @@ class Node():
 
 
 class Tree:
-	def __init__(self, n):
+	def __init__(self, n=None):
 		self.root = n
 
 	def get(self, k):
@@ -95,4 +95,22 @@ class Tree:
 			n.left = target.left
 		return n
 
-# TODO: Add test code
+	# TODO: getHeight
+	def getHeight(self, root):
+		return 0 if root is None else 1 + max(self.getHeight(root.left), self.getHeight(root.right))
+
+
+if __name__ == '__main__':
+	t = Tree()
+	t.put(10, '10')
+	t.put(20, '20')
+	t.put(30, '30')
+	t.put(40, '40')
+	t.put(50, '50')
+	t.put(60, '60')
+	t.put(70, '70')
+	print(t.min().key)
+	t.delete_min()
+	print(t.min().key)
+	t.delete(40)
+	print(t.getHeight(t.root))
