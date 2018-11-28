@@ -95,9 +95,15 @@ class Tree:
 			n.left = target.left
 		return n
 
-	# TODO: getHeight
-	def getHeight(self, root):
-		return 0 if root is None else 1 + max(self.getHeight(root.left), self.getHeight(root.right))
+	def getHeight(self):
+		c, i = self.root, 0
+		while c:
+			if c.left:
+				c = c.left
+			else:
+				c = c.right
+			i = i + 1
+		return i
 
 
 if __name__ == '__main__':
@@ -113,4 +119,4 @@ if __name__ == '__main__':
 	t.delete_min()
 	print(t.min().key)
 	t.delete(40)
-	print(t.getHeight(t.root))
+	print(t.getHeight())

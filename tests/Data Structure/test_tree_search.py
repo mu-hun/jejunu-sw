@@ -15,4 +15,4 @@ def test_main():
 	t.delete_min()
 	assert t.min().key == 20
 	t.delete(40)
-	assert t.getHeight(t.root) == 5
+	assert t.getHeight() == 5
