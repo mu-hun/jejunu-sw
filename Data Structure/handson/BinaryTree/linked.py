@@ -31,6 +31,7 @@ class Tree():
 			print(n.value, end=' ')
 	
 	def levelorder(self, q):
+		q = [q]
 		while q:
 			t = q.pop(0)
 			print(t.value, end=' ')
@@ -74,6 +75,6 @@ if __name__ == '__main__':
 	print('\n후위순회: ', end='')
 	t.postorder(n1)
 	print('\n레벨순회: ', end='')
-	t.levelorder([n1])
+	t.levelorder(n1)
 	print('\n트리높이: ', end='')
 	print(t.getHeight(n1))

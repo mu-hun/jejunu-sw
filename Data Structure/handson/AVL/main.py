@@ -1,3 +1,6 @@
+from BinarySearch.main import Tree as BS
+from BinaryTree.linked import Tree as Order
+
 class Node():
     def __init__(self, key, value, height, left=None, right=None):
         self.key = key
@@ -7,9 +10,38 @@ class Node():
         self.right = right
 
 
-class Tree:
+class Tree(BS, Order):
     def __init__(self, n=None):
         self.root = n
+
+    def put(self, key, value):
+        self.root = self.put_item(self.root, key, value)
+
+    def put_item(self, n, key, value):
+        if n == None:
+            return Node(key, value, 1)
+        if n.key > key:
+            n.left = self.put_item(n.left, key, value)
+        elif n.key < key:
+            n.right = self.put_item(n.right, key, value)
+        else:
+            n.value = value
+        n.height = max(self.height(n.left), self.height(n.right)) + 1
+        return self.balance(n)
+
+    def balance(self, n):
+        if self.bf(n) > 1:
+            if self.bf(n.left) < 0:
+                n.left = self.rotate_left(n.left)
+            n = self.rotate_right(n)
+        elif self.bf(n) < -1:
+            if self.bf(n.right) > 0:
+                n.right = self.rotate_right(n.right)
+            n = self.rotate_left(n)
+        return n
+
+    def bf(self, n):
+        return self.height(n.left) - self.height(n.right)
 
     def rotate_left(self, n):  # 변경되는 레퍼런스 O(1)
         x = n.right
@@ -28,37 +60,21 @@ class Tree:
         return x
 
     def height(self, n):
-        if n is None:
-            return 0
-        return n.height
+        if n:
+            return n.height
+        return 0
+	
+	# def balence_after_delete: TODO
 
-    def balance(self, n):
-        if self.bf(n) > 1:
-            if self.bf(n.left) < 0:
-                n.left = self.rotate_left(n.left)
-            n = self.rotate_right(n)
-        elif self.bf(n) < -1:
-            if self.bf(n.right) > 0:
-                n.right = self.rotate_right(n.right)
-            n = self.rotate_left(n)
-        return n
-
-    def put(self, key, value):
-        pass
-
-    def put_item(self, n, key, value):
-        if n == None:
-            return Node(key, value, 1)
-        if n.key > key:
-            n.left = self.put_item(n.left, key, value)
-        elif n.key < key:
-            n.right = self.put_item(n.right, key, value)
-        else:
-            n.value = value
-        n.height = max(self.height(n.left), self.height(n.right)) + 1
-        return self.balance(n)
-
-    def bf(self, n):
-        return self.height(n.left) - self.height(n.right)
-
-# TODO: test code
+if __name__ == '__main__':
+    t = Tree()
+    t.put(25, '🍇')
+    t.put(37, '🍏')
+    t.put(18, '🍌')
+    t.put(55, '🍈')
+    t.put(22, '🍉')
+    t.put(35, '🍊')
+    t.put(50, '🍋')
+    t.put(63, '🍍')
+    t.levelorder(t.root)
+    print(t.root.key)
