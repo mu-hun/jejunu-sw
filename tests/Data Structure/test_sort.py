@@ -1,7 +1,8 @@
 import sys
 sys.path.append('Data Structure/handson/Sort')
 
-from main import select_sort, insert_sort
+from main import *
 
 def test_main():
-	assert select_sort([3, 4, 1]) == insert_sort([3, 4, 1]) == [1, 3, 4]
+	l = [3, 4, 1]
+	assert select_sort(l) == insert_sort(l) == shell_sort(l) == sorted(l)
