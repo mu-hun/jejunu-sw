@@ -32,7 +32,7 @@ class Tree:
 	def get_item(self, n, k):
 		if n == None:
 			return n
-		if n.key > k:  # 루트 노드보다 k가 작으먄 왼쪽
+		if n.key > k:  # 루트 노드보다 k가 작으면 왼쪽
 			return self.get_item(n.left, k)
 		elif n.key < k:  # 루트 노드보다 k가 크면 오른쪽
 			return self.get_item(n.right, k)

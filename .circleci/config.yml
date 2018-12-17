@@ -16,10 +16,8 @@ jobs:
       # - image: circleci/postgres:9.4
 
     # working_directory: ~/repo
-    environment:
-      PYTHONPATH: 'Data Structure/handson'
-    
-      steps:
+
+    steps:
       - checkout
 
       # Download and cache dependencies

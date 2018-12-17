@@ -14,7 +14,6 @@ class Heap:
 		if self.getSize() is 0:
 			print("heap is Empty")
 			return None
-		self.list[1] = self.list[-1]
 		min = self.list[1]
 		self.list[1], self.list[-1] = self.list[-1], self.list[1]
 		del self.list[-1]
@@ -67,3 +66,4 @@ if __name__ == '__main__':
 	b.insert([5,'apple']) # O(log n)
 	b.print_heap()
 	print(f'\n크기: {b.getSize()}')
+5

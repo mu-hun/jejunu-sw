@@ -1,6 +1,3 @@
-from BinarySearch.main import Tree as BS
-from BinaryTree.linked import Tree as Order
-
 class Node():
     def __init__(self, key, value, height, left=None, right=None):
         self.key = key
@@ -10,7 +7,7 @@ class Node():
         self.right = right
 
 
-class Tree(BS, Order):
+class Tree():
     def __init__(self, n=None):
         self.root = n
 
@@ -63,8 +60,7 @@ class Tree(BS, Order):
         if n:
             return n.height
         return 0
-	
-	# def balence_after_delete: TODO
+
 
 if __name__ == '__main__':
     t = Tree()
@@ -76,5 +72,4 @@ if __name__ == '__main__':
     t.put(35, '🍊')
     t.put(50, '🍋')
     t.put(63, '🍍')
-    t.levelorder(t.root)
     print(t.root.key)
