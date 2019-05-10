@@ -102,8 +102,7 @@ int factorial_memo(int n) {
 }
 
 int _factorial_tail(int n, int acc) {
-    if (n == 0) return acc;
-    return _factorial_tail(n-1, n*acc);
+    return (n <= 1? acc : _factorial_tail(n-1, n*acc));
 }
 
 int factorial_tail(int n) {
