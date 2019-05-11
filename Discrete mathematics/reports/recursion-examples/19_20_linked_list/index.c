@@ -84,7 +84,7 @@ int main()
 		}
 	} while (number >= 0);
 
-	print_list(head);
+	print_list2(head);
 	//print_list_r(head);
 	printf("\n");
 	return 0;
