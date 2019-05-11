@@ -2,7 +2,7 @@
 void print_array(int arr[],int n)
 {
     if(n<0) return;
-    PrintArray(arr,n-1);
+    print_array(arr,n-1);
     printf("%d ",arr[n]);
 }
 int main()
