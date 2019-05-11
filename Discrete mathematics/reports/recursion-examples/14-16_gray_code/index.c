@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+void print_gray_reverse(int code[], int n, int index);
+
 void print_code(int code[], int len)
 {
     int i;
@@ -55,7 +57,7 @@ int main()
     int code[MAXN], n;
 
     scanf("%d", &n);
-    //print_gray(code, n, 0);
-    print_gray2(code, n, 0, 0);
+    print_gray(code, n, 0);
+//    print_gray2(code, n, 0, 0);
     return 0;
 }
