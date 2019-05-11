@@ -31,14 +31,18 @@ int abandonProject(int m) {
     printf("[abandonProject] motivation: %d\n", --m);
     return m;
 }
-void haveGreatIdea(int m, int callStack) {
-    if (callStack++ > 10) {
-        printf("[haveGreatIdea] limit motivation: %d", m);return;
+void haveGreatIdea(int m, int acc, int callStack) {
+
+    if (acc++ > callStack) {
+        printf("\nlimit motivation: %d\n", m);return;
     }
-    m = startProject(m);
-    m = loseMotivation(m);
-    m = abandonProject(m);
-    haveGreatIdea(m, callStack);
+
+    printf("\nOn I have a great idea!\n");
+
+    haveGreatIdea(
+            abandonProject(
+                    loseMotivation(
+                            startProject(m))), acc, callStack);
 }
 
 
@@ -53,7 +57,7 @@ void abandonProjectP(int *m) {
 }
 void haveGreatIdeaP(int *m, int callStack) {
     if (callStack++ > 10) {
-        printf("[haveGreatIdea] limit motivation: %d", *m);return;
+        printf("[haveGreatIdea] last motivation: %d\n", *m);return;
     }
     startProjectP(m);
     loseMotivationP(m);
@@ -78,11 +82,6 @@ int fib_memo(int n) {
             fib_lookup_table[n] = fib_memo(n-1) + fib_memo(n-2);
     }
     return fib_lookup_table[n];
-}
-
-
-int fib_tail(int n) {
-    return 1;
 }
 
 int factorial(int n) {
@@ -110,17 +109,24 @@ int factorial_tail(int n) {
 }
 
 int main(void) {
-    int a = 10;
-    memo_initials();
-    printf("fibonacci 3 is 1 : %s\n", fibonacci(3) == 2 ? "true" : "false");
-    printf("fibonacci 3 is 1 : %s\n", fib_memo(3) == 2 ? "true" : "false");
-    printf("fibonacci 3 is 1 : %s\n", factorial(3) == 6 ? "true" : "false");
-    printf("fibonacci 3 is 1 : %s\n", factorial_memo(3) == 6 ? "true" : "false");
-    printf("fibonacci 3 is 1 : %s\n", factorial_tail(3) == 6 ? "true" : "false");
+    int x, y;
 
-    haveGreatIdea(10, 0);
-    printf("\nhaveGreatIdea: motivation by pointer:");
-    haveGreatIdeaP(&a, 0);
+    memo_initials();
+
+    printf("crunch values: ");
+    scanf("%d %d", &x, &y);
+
+	haveGreatIdea(x, 0, y);
+
+//    printf("\n\nhaveGreatIdea: motivation by pointer:\n");
+//    haveGreatIdeaP(&x, 0);
+
+    printf("fibonacci(3) is 1 : %s\n", fibonacci(3) == 2 ? "true" : "false");
+    printf("fib_memo(3) is 1 : %s\n", fib_memo(3) == 2 ? "true" : "false");
+    printf("factorial(3) : %s\n", factorial(3) == 6 ? "true" : "false");
+    printf("factorial_memo(3) is 1 : %s\n", factorial_memo(3) == 6 ? "true" : "false");
+    printf("factorial_tail(3) is 1 : %s\n", factorial_tail(3) == 6 ? "true" : "false");
+
     return 0;
 
 }
