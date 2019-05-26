@@ -19,7 +19,7 @@
 
 - [제주대학교 웹 메일](https://webmail.jejunu.ac.kr/) - 메일 클라이언트 설정
 
-  POP 프로토콜 사용, 송/수신 서버 주소는 `webmail.jejunu.ac.kr` 로 같음. SSL 사용 안함(...)
+  POP 프로토콜 사용, 송/수신 서버 주소는 `webmail.jejunu.ac.kr` 로 같음.
 
   > **Mac OS 기본 메일 클라이언트**에서
   >
