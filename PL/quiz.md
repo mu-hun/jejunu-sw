@@ -65,7 +65,7 @@
     <boolean exp>
 ```
 
-1. 위 BNF를 EBNF로 표현하라
+1. 위 BNF를 EBNF로 표현한 식:
 
    ```ebnf
    <for stmt> ::= [<label> :] {<for clause><strmt>}
@@ -77,6 +77,7 @@
        <boolean exp>}
    ```
 
-2. 위 BNF를 구문 도표로 표현하라
+2. 구문 도표로 표현한 그림:
+TODO
 
 ### 바인딩
