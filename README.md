@@ -6,16 +6,8 @@
 
 ### 교내 ICT 서비스 이용 팁
 
-- [하영드리미](https://dreamy.jejunu.ac.kr) - `submit()` 이후 하단의 유저 스크립트 적용
- 
-  ```js
-  window.onload = function() {
-    if (document.getElementsByName('frmLogin')) {
-    //   document.getElementById('password').focus();
-      document.getElementById('act_lgn').click();
-    }
-  }
-  ```
+- [하영드리미](https://dreamy.jejunu.ac.kr) : [자동로그인 스크립트](./dreamy.login.js) 설치
+- [이러닝 전자출결](https://elearing.jejunu.ac.kr) : [자동로그인 스크립트](./elearing.mobile.js) 설치
 
 - [제주대학교 웹 메일](https://webmail.jejunu.ac.kr/) - 메일 클라이언트 설정
 
@@ -28,6 +20,7 @@
   > <img src="mail-setup.png" width="300em"/>
 
 ---
+
 _This repository was inspired by [simnalamburt/snucse](https://github.com/simnalamburt/snucse)_
 
 Original contents are copyrighted to Lecturer, and Notes is primarily distributed under the terms of the [GNU Affero General Public License v3.0](./LICENSE) or any later version. See [COPYRIGHT](./COPYRIGHT) for details.
