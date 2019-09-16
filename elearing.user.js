@@ -1,19 +1,24 @@
 // ==UserScript==
-// @name         elearn.Mmain
-// @version      2018.08.19
+// @name         elearn.main
+// @namespace    http://tampermonkey.net/
+// @version      0.3
 // @author       Muhun Kim
-// @updateURL https://github.com/x86chi/jejunu/raw/master/elearing.user.js
-// @downloadURL https://github.com/x86chi/jejunu/raw/master/elearing.user.js
-// @match        https://elearning.jejunu.ac.kr/MMain.do?cmd=viewIndexPage
-// @match        https://elearning.jejunu.ac.kr/MMain.do?cmd=viewIndexPage#0
+// @match        https://elearning.jejunu.ac.kr/
+// @match        http://elearning.jejunu.ac.kr/
 // @grant        none
 // ==/UserScript==
 
-window.onload = () => {
-  const button = document.getElementById('login_popup')
-  if (button) {
-    button.click()
-    setTimeout(() => document.querySelector('.login_btn').click(), 100)
+;(() => {
+  'use strict'
+  window.onload = () => {
+    const userForm = document.querySelector('frame[name="main"]')
+      .contentDocument.userForm
+
+    if (userForm !== undefined) {
+      const formBind = userForm.querySelector.bind(userForm)
+      formBind('input#id').value = 201812345
+      formBind('input#pw').value = 'password'
+      formBind('.loginBtn').click()
+    }
   }
-  document.querySelector('a.smart').click()
-}
+})()
