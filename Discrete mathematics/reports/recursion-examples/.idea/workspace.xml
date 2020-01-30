@@ -2,24 +2,24 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="recursion_examples" targetName="21_merge_sort" />
-      <config projectName="recursion_examples" targetName="19_linked_list" />
-      <config projectName="recursion_examples" targetName="09_pay" />
       <config projectName="recursion_examples" targetName="10_12_partition" />
-      <config projectName="recursion_examples" targetName="01_08" />
-      <config projectName="recursion_examples" targetName="23_quicksort" />
       <config projectName="recursion_examples" targetName="17_m_sum" />
-      <config projectName="recursion_examples" targetName="20_binary_search" />
-      <config projectName="recursion_examples" targetName="24_tower_of_hanoi" />
       <config projectName="recursion_examples" targetName="18_choose" />
-      <config projectName="recursion_examples" targetName="30_print_array" />
-      <config projectName="recursion_examples" targetName="recursion_examples" />
-      <config projectName="recursion_examples" targetName="29_palindrome" />
-      <config projectName="recursion_examples" targetName="13_partition_count" />
-      <config projectName="recursion_examples" targetName="16_m_sum" />
-      <config projectName="recursion_examples" targetName="25_27_tree_traversals" />
-      <config projectName="recursion_examples" targetName="14-15_gray_code" />
       <config projectName="recursion_examples" targetName="28_percentage" />
+      <config projectName="recursion_examples" targetName="01_08" />
+      <config projectName="recursion_examples" targetName="25_27_tree_traversals" />
+      <config projectName="recursion_examples" targetName="21_merge_sort" />
+      <config projectName="recursion_examples" targetName="30_print_array" />
+      <config projectName="recursion_examples" targetName="20_binary_search" />
+      <config projectName="recursion_examples" targetName="23_quicksort" />
+      <config projectName="recursion_examples" targetName="16_m_sum" />
+      <config projectName="recursion_examples" targetName="29_palindrome" />
+      <config projectName="recursion_examples" targetName="19_linked_list" />
+      <config projectName="recursion_examples" targetName="14-15_gray_code" />
+      <config projectName="recursion_examples" targetName="09_pay" />
+      <config projectName="recursion_examples" targetName="recursion_examples" />
+      <config projectName="recursion_examples" targetName="24_tower_of_hanoi" />
+      <config projectName="recursion_examples" targetName="13_partition_count" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -29,52 +29,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7950281-38f8-469b-be0c-23ac9942fb96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/recursion-examples.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_08/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_08/index.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_pay/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_pay/index.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_12_partition/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_12_partition/index.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_partition_count/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_partition_count/index.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-15_gray_code/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-15_gray_code/index.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_m_sum/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_m_sum/index.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_m_sum/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_m_sum/index.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_choose/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_choose/index.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_linked_list/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_linked_list/index.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_binary_search/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_binary_search/index.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_merge_sort/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_merge_sort/index.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22_fractal_tree/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22_fractal_tree/index.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/23_quicksort/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/23_quicksort/index.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_tower_of_hanoi/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_tower_of_hanoi/index.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25_27_tree_traversals/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25_27_tree_traversals/index.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/28_percentage/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/28_percentage/index.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/29_palindrome/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/29_palindrome/index.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/30_print_array/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/30_print_array/index.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PL/quiz/last.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PL/quiz/last.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,14 +39,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/28_percentage/index.c">
+        <entry file="file://$PROJECT_DIR$/23_quicksort/index.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            <state relative-caret-position="180">
+              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -142,11 +101,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="719" />
-    <option name="y" value="351" />
-    <option name="width" value="1503" />
-    <option name="height" value="1270" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="846" />
+    <option name="width" value="834" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -156,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,16 +124,19 @@
             <path>
               <item name="recursion_examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="recursion-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="01_08" type="462c0819:PsiDirectoryNode" />
+              <item name="23_quicksort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -202,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.recursion_examples">
+  <component name="RunManager" selected="CMake Application.01_08">
     <configuration name="01_08" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="recursion_examples" TARGET_NAME="01_08" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="recursion_examples" RUN_TARGET_NAME="01_08">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -294,24 +254,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.recursion_examples" />
-      <item itemvalue="Application.01_08" />
-      <item itemvalue="Application.09_pay" />
-      <item itemvalue="Application.10_12_partition" />
-      <item itemvalue="Application.13_partition_count" />
-      <item itemvalue="Application.14-15_gray_code" />
-      <item itemvalue="Application.16_m_sum" />
-      <item itemvalue="Application.17_m_sum" />
-      <item itemvalue="Application.18_choose" />
-      <item itemvalue="Application.19_linked_list" />
-      <item itemvalue="Application.20_binary_search" />
-      <item itemvalue="Application.21_merge_sort" />
-      <item itemvalue="Application.23_quicksort" />
-      <item itemvalue="Application.24_tower_of_hanoi" />
-      <item itemvalue="Application.25_27_tree_traversals" />
-      <item itemvalue="Application.28_percentage" />
-      <item itemvalue="Application.29_palindrome" />
-      <item itemvalue="Application.30_print_array" />
+      <item itemvalue="CMake Application.01_08" />
+      <item itemvalue="CMake Application.09_pay" />
+      <item itemvalue="CMake Application.10_12_partition" />
+      <item itemvalue="CMake Application.13_partition_count" />
+      <item itemvalue="CMake Application.14-15_gray_code" />
+      <item itemvalue="CMake Application.16_m_sum" />
+      <item itemvalue="CMake Application.17_m_sum" />
+      <item itemvalue="CMake Application.18_choose" />
+      <item itemvalue="CMake Application.19_linked_list" />
+      <item itemvalue="CMake Application.20_binary_search" />
+      <item itemvalue="CMake Application.21_merge_sort" />
+      <item itemvalue="CMake Application.23_quicksort" />
+      <item itemvalue="CMake Application.24_tower_of_hanoi" />
+      <item itemvalue="CMake Application.25_27_tree_traversals" />
+      <item itemvalue="CMake Application.28_percentage" />
+      <item itemvalue="CMake Application.29_palindrome" />
+      <item itemvalue="CMake Application.30_print_array" />
+      <item itemvalue="CMake Application.recursion_examples" />
     </list>
   </component>
   <component name="TaskManager">
@@ -324,16 +284,18 @@
       <workItem from="1557324053780" duration="180000" />
       <workItem from="1557324265510" duration="20646000" />
       <workItem from="1557460579325" duration="12210000" />
+      <workItem from="1568516011010" duration="936000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33036000" />
+    <option name="totallyTimeSpent" value="33972000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="719" y="351" width="1503" height="1270" extended-state="0" />
+    <frame x="846" y="0" width="834" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13278577" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2777778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -344,7 +306,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.6468591" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3246888" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.3293718" />
@@ -357,22 +319,11 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/rm-rf.c" />
-    <entry file="file://$PROJECT_DIR$/13_quicksort.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/13_quicksort.c" />
     <entry file="file://$PROJECT_DIR$/11_pay2.c" />
     <entry file="file://$PROJECT_DIR$/12-13_partition.c" />
     <entry file="file://$PROJECT_DIR$/15_gray_code.c" />
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="210">
@@ -381,78 +332,23 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12_merge_sort.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14_m.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9_partition_count.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11_linked_list.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10_choose.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8_m_sum.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-6_gray_code.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/15_fractal_tree.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_binary_search.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_pay/cmake-build-debug/cmake_install.cmake">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_pay/cmake-build-debug/CMakeFiles/feature_tests.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/12_merge_sort.c" />
+    <entry file="file://$PROJECT_DIR$/14_m.c" />
+    <entry file="file://$PROJECT_DIR$/9_partition_count.c" />
+    <entry file="file://$PROJECT_DIR$/11_linked_list.c" />
+    <entry file="file://$PROJECT_DIR$/10_choose.c" />
+    <entry file="file://$PROJECT_DIR$/8_m_sum.c" />
+    <entry file="file://$PROJECT_DIR$/5-6_gray_code.c" />
+    <entry file="file://$PROJECT_DIR$/15_fractal_tree.c" />
+    <entry file="file://$PROJECT_DIR$/16_binary_search.c" />
+    <entry file="file://$PROJECT_DIR$/01_pay/cmake-build-debug/cmake_install.cmake" />
+    <entry file="file://$PROJECT_DIR$/01_pay/cmake-build-debug/CMakeFiles/feature_tests.c" />
     <entry file="file://$PROJECT_DIR$/09_pay/index.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -460,20 +356,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_08_simples/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2-4_partition.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/01_08_simples/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/2-4_partition.c" />
     <entry file="file://$PROJECT_DIR$/09_pay/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -495,13 +379,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_08_simples/index.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/01_08_simples/index.c" />
     <entry file="file://$PROJECT_DIR$/24_tower_of_hanoi/index.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -609,7 +487,14 @@
     <entry file="file://$PROJECT_DIR$/28_percentage/index.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/23_quicksort/index.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
         </state>
       </provider>
     </entry>

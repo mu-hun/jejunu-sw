@@ -8,7 +8,8 @@
 
 window.onload = () => {
   if (document.getElementsByName('frmLogin').length) {
-    // document.getElementById('password').focus();
+    // document.querySelector('#userid').value = 1234567890
+    // document.querySelector('#password').value = 'dreamy.jejunu.ac.kr'
     document.getElementById('act_lgn').click()
   }
 }
