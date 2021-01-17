@@ -8,3 +8,7 @@
 ## 필요한 외부 파이썬 모듈
 
 - requests
+- pandas
+- matplotlib
+- [konlpy](https://konlpy-ko.readthedocs.io/ko/v0.4.3/install)
+- sklearn
