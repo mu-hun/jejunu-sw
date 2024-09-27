@@ -6,8 +6,7 @@
 
 ### 교내 ICT 서비스 이용 팁
 
-- [하영드리미](https://dreamy.jejunu.ac.kr) : [유저 스크립트](https://github.com/x86chi/jejunu/raw/master/dreamy.user.js) 설치
-- [이러닝](https://elearing.jejunu.ac.kr) : [유저 스크립트](https://github.com/x86chi/jejunu/raw/master/elearing.user.js) 설치
+- [제주대학교 포털](https://portal.jejunu.ac.kr) : [유저 스크립트](https://github.com/mu-hun/jejunu-sw/raw/refs/heads/master/portal.user.js) 설치
 
 - [제주대학교 웹 메일](https://webmail.jejunu.ac.kr/) - [유저 스크립트](https://github.com/x86chi/jejunu/raw/master/webmail.user.js) 또는 메일 클라이언트 설정
 
