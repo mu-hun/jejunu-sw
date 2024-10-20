@@ -11,7 +11,7 @@ while True:
     if not ret:
         break
 
-    x, y, w, h = (200, 100, 100, 200)
+    x, y, w, h = (200, 100, 100, 100)
     cv2.rectangle(frame, (x, y, w, h), (0, 0, 255), 3)
 
     blue, green, red = cv2.split(frame)
