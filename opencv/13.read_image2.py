@@ -2,8 +2,8 @@ import cv2
 from Common.utils import print_matInfo  # 행렬 정보 출력 함수 임포트
 
 title1, title2 = "color2gray", "color2color"
-color2gray = cv2.imread("Source/chap04/images/read_color.jpg", cv2.  )
-color2color = cv2.imread("Source/chap04/images/read_color.jpg", cv2.    )
+color2gray = cv2.imread("Source/chap04/images/read_color.jpg", cv2.IMREAD_GRAYSCALE)
+color2color = cv2.imread("Source/chap04/images/read_color.jpg", cv2.IMREAD_COLOR)
 if color2gray is None or color2color is None:
     raise Exception("영상 파일 읽기 에러")
 

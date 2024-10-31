@@ -18,6 +18,15 @@ cv2.namedWindow("Keyboard Event")  #
 cv2.imshow("Keyboard Event", image)
 
 while True:
+    key = cv2.waitKey(100)  # 100ms 동안 키 이벤트 대기
+    if key == 27:  # ESC 키
+        break
 
+    try:
+        result = switch_case[key]  # 사전에 정의된 키면 메시지 출력
+        print(result)
+    except KeyError:
+        result = "해당 키에 해당하는 케이스 없음"
+        print(result)
 
 cv2.destroyAllWindows()  #
