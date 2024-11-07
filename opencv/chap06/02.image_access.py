@@ -24,9 +24,7 @@ def pixel_access3(image):
     return image3
 
 def pixel_access4(image):
-    
-
-
+    image4 = cv2.subtract(255, image)
     return image4
 
 def pixel_access5(image):
