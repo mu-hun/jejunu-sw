@@ -2,9 +2,12 @@
 
 학교 수업 요약 정리, 과목별 과제, 개인 공부 노트 레포
 
-### 교내 ICT 서비스 이용 팁
+## 교내 ICT 서비스 이용 팁
 
-- [제주대학교 포털](https://portal.jejunu.ac.kr) : [유저 스크립트](https://github.com/mu-hun/jejunu-sw/raw/refs/heads/master/portal.user.js) 설치
+- [제주대학교 포털](https://portal.jejunu.ac.kr)
+  - [SSO 로그인 자동화 유저스크립트](https://github.com/mu-hun/jejunu-sw/raw/refs/heads/master/portal.user.js) 설치
+  - [mu-hun/jejunu-icalendar-server](https://github.com/mu-hun/jejunu-icalendar-server/)<br/>
+    강의 시간표를 외부 캘린더에 구독하는 자동화 워크플로우
 
 ---
 
