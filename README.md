@@ -5,9 +5,15 @@
 ## 교내 ICT 서비스 이용 팁
 
 - [제주대학교 포털](https://portal.jejunu.ac.kr)
+
   - [SSO 로그인 자동화 유저스크립트](https://github.com/mu-hun/jejunu-sw/raw/refs/heads/master/portal.user.js) 설치
   - [mu-hun/jejunu-icalendar-server](https://github.com/mu-hun/jejunu-icalendar-server/)<br/>
     강의 시간표를 외부 캘린더에 구독하는 자동화 워크플로우
+
+- [제주대학교 LMS (JNU CLASS)](https://jnuclass.jejunu.ac.kr)
+
+  1. [로그인 페이지 리다이렉션 유저스크립트](https://github.com/mu-hun/jejunu-sw/raw/refs/heads/master/jnuclass-redirect-to-login.user.js) 설치
+  2. [로그인 자동화 유저스크립트](https://github.com/mu-hun/jejunu-sw/raw/refs/heads/master/jnuclass-auto-login.user.js) 설치
 
 ---
 
