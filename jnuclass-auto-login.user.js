@@ -4,8 +4,8 @@
 // @grant    none
 // @version 20241227
 // @match https://jnuclass.jejunu.ac.kr/xn-sso/login.php*
-// @updateURL https://github.com/mu-hun/jejunu-sw/raw/refs/heads/master/jnuclass-autologin.user.js
-// @downloadURL https://github.com/mu-hun/jejunu-sw/raw/refs/heads/master/jnuclass-autologin.user.js
+// @updateURL https://github.com/mu-hun/jejunu-sw/raw/refs/heads/master/jnuclass-auto-login.user.js
+// @downloadURL https://github.com/mu-hun/jejunu-sw/raw/refs/heads/master/jnuclass-auto-login.user.js
 // @run-at document-end
 // ==/UserScript==
 
