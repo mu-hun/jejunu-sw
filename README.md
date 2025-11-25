@@ -27,6 +27,7 @@
 - 차트 UI를 응용한 웹 애플리케이션 과제: [제작 제안서 아웃 링크](https://speakerdeck.com/muhun/team-slicon)
   - 정렬 알고리즘 시각화 및 청각화 구현: https://github.com/ez-25/team-silicon/pull/1
   - 가상화폐 차트 데모 (코드리뷰): https://github.com/ez-25/team-silicon/pull/8
+- 임베디드 소프트웨어 - 리듬게임 키 입력 LED 시각화 프로젝트: [PLATiNA-LED](https://github.com/mu-hun/PLATiNA-LED)
 
 [^Adapter]: Ports & Adapters 패턴(aka. Hexagonal Architecture) 에서 유래한 아키텍쳐 용어로, Port는 내부를 뜻하고 Adapter는 외부를 뜻합니다. [앨리스테어 코어번(Alistair Cockburn)의 해당 패턴 소개 포스팅](https://web.archive.org/web/20140329201018/http://alistair.cockburn.us/Hexagonal+architecture)을 참고 바랍니다.
 
