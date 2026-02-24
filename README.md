@@ -2,6 +2,10 @@
 
 Note-taking for computer engineering lectures and assignments
 
+> [!NOTE]
+> ![graduation cap](graduation_cap.webp)
+> Graduate! 🎓 (<time datetime="2018-03-02">2018-03-02</time> – <time datetime="2026-02-20">2026-02-20</datetime>)
+
 ## Tips for Using Campus ICT Services
 
 - [Jeju National University Portal](https://portal.jejunu.ac.kr)
